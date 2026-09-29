@@ -1,0 +1,54 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* ---------------------------------------------------------
+   Custom styles
+--------------------------------------------------------- */
+
+/* Theme switch tooltip */
+#mode-toggle {
+  position: relative;
+}
+
+#mode-toggle::after {
+  content: "Switch theme";
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+
+  padding: 4px 8px;
+  border-radius: 6px;
+
+  font-size: 0.75rem;
+  line-height: 1.2;
+  white-space: nowrap;
+
+  background: var(--bs-body-bg);
+  color: var(--text-color);
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  transition: opacity 0.15s ease;
+  z-index: 20;
+}
+
+#mode-toggle:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
