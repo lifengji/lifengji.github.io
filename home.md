@@ -1,8 +1,19 @@
 ---
 layout: page
-title:
 permalink: /
 ---
+
+<img
+  src="/assets/img/profile.jpg"
+  alt="Fengji Li"
+  style="
+    float: right;
+    width: 220px;
+    margin: 0 0 20px 30px;
+    border-radius: 12px;
+  "
+>
+
 
 # Fengji Li 李沣骥
 
@@ -22,3 +33,9 @@ My research focuses on physiological speech interfaces, flexible ultrasound sens
 - Multimodal Speech Decoding
 - Silent Speech and Speech Reconstruction
 - Biomedical Signal Processing
+
+## Explore
+
+[News](/news/) · [Research](/research/) · [Publications](/publications/) · [Projects](/projects/) · [CV](/cv/)
+
+<div style="clear: both;"></div>
