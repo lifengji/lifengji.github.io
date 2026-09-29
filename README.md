@@ -1,6 +1,6 @@
 # Fengji Li — Personal Academic Website
 
-This repository hosts the personal academic website of **Fengji Li (李沣骥)**.
+This repository hosts the personal academic website of me.
 
 🌐 **Website:** [https://lifengji.com](https://lifengji.com)
 
