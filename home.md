@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: profile-home
 permalink: /
 ---
 
