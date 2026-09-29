@@ -93,3 +93,92 @@
 .academic-more {
   font-size: 0.85rem;
 }
+
+/* =========================================================
+   Home Profile
+   ========================================================= */
+
+.profile-section {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 180px;
+  gap: 2.5rem;
+  align-items: start;
+  margin-bottom: 2rem;
+}
+
+.profile-text p {
+  margin-top: 0;
+  margin-bottom: 1.3rem;
+  line-height: 1.8;
+}
+
+/* Photo column */
+.profile-photo {
+  width: 180px;
+}
+
+/* Chirpy automatically wraps content images in .img-link.shimmer.
+   Remove all article-image effects for the profile photo. */
+.profile-photo .img-link,
+.profile-photo .img-link.shimmer,
+.profile-photo a.popup {
+  display: block !important;
+  width: 180px !important;
+  height: auto !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  background: none !important;
+  background-image: none !important;
+
+  box-shadow: none !important;
+  border: none !important;
+
+  animation: none !important;
+}
+
+/* Completely disable shimmer animation */
+.profile-photo .shimmer::before,
+.profile-photo .shimmer::after {
+  display: none !important;
+  content: none !important;
+
+  animation: none !important;
+  background: none !important;
+  background-image: none !important;
+}
+
+/* Actual photo */
+.profile-photo img {
+  display: block;
+  width: 180px !important;
+  max-width: 180px !important;
+  height: auto !important;
+
+  margin: 0 !important;
+
+  border-radius: 4px;
+  box-shadow: none !important;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .profile-section {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .profile-photo {
+    width: 160px;
+    order: -1;
+  }
+
+  .profile-photo .img-link,
+  .profile-photo .img-link.shimmer,
+  .profile-photo a.popup,
+  .profile-photo img {
+    width: 160px !important;
+    max-width: 160px !important;
+  }
+}
