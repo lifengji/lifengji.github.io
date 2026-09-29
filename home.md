@@ -20,7 +20,16 @@ permalink: /
 **Postdoctoral Researcher · Assistant Researcher**  
 Beihang University
 
-<img src="/assets/img/profile.jpg" width="220" align="right">
+<img
+  src="/assets/img/profile.jpg"
+  alt="Portrait of Fengji Li"
+  style="
+    float: right;
+    width: 220px;
+    margin: 0 0 20px 30px;
+    border-radius: 12px;
+  "
+>
 
 I am a postdoctoral researcher in Biomedical Engineering at Beihang University.
 
