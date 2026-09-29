@@ -1,0 +1,67 @@
+<div class="academic-panel">
+
+  <!-- Quick Links -->
+  <section>
+    <h2 class="panel-heading">Quick Links</h2>
+
+    <ul class="academic-links">
+      {% for item in site.data.home_panel.quick_links %}
+        <li>
+          <a
+            href="{{ item.url | relative_url }}"
+            {% if item.url contains '://' %}
+              target="_blank"
+              rel="noopener noreferrer"
+            {% endif %}
+          >
+            <i class="{{ item.icon }} fa-fw"></i>
+            {{ item.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+
+  <!-- Recent News -->
+  <section>
+    <h2 class="panel-heading">Recent News</h2>
+
+    <ul class="academic-news">
+      {% for item in site.data.home_panel.recent_news %}
+        <li>
+          <span class="academic-date">{{ item.date }}</span>
+          <a href="{{ item.url | relative_url }}">
+            {{ item.text }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <a class="academic-more" href="{{ '/news/' | relative_url }}">
+      View all news →
+    </a>
+  </section>
+
+
+  <!-- Selected Publications -->
+  <section>
+    <h2 class="panel-heading">Selected Publications</h2>
+
+    <ul class="academic-publications">
+      {% for item in site.data.home_panel.selected_publications %}
+        <li>
+          <span class="academic-date">{{ item.year }}</span>
+          <a href="{{ item.url | relative_url }}">
+            {{ item.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <a class="academic-more" href="{{ '/publications/' | relative_url }}">
+      View all publications →
+    </a>
+  </section>
+
+</div>
