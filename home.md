@@ -31,8 +31,5 @@ My research focuses on physiological speech interfaces, flexible ultrasound sens
 
 **Hobby:** craft beer, travel, cars, films, and music(accordion and piano).
 
-## Explore
-
-[News](/news/) · [Research](/research/) · [Publications](/publications/) · [Projects](/projects/) · [CV](/cv/)
 
 <div style="clear: both;"></div>
