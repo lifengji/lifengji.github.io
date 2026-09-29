@@ -7,7 +7,7 @@ permalink: /
 
 <div class="row align-items-start g-4 mb-4">
 
-  <div class="col-md-8">
+  <div class="col-md-7">
     <p>
       Fengji Li (李沣骥) is a Postdoctoral Researcher and Assistant Researcher
       at the School of Biological Science and Medical Engineering,
@@ -25,24 +25,25 @@ permalink: /
     </p>
   </div>
 
-  <div class="col-md-4">
+  <div class="col-md-5">
     <div
       role="img"
       aria-label="Portrait of Fengji Li"
       style="
-        width: 150px;
-        height: 200px;
+        width: 215px;
+        height: 285px;
         margin-left: auto;
         background-image: url('/assets/img/profile.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        border-radius: 4px;
+        border-radius: 6px;
       ">
     </div>
   </div>
 
 </div>
+
 
 ## Research Interests
 
@@ -52,7 +53,7 @@ permalink: /
 - Silent Speech and Speech Reconstruction
 - Biomedical Signal Processing
 
-**Hobby:** craft beer, travel, cars, films, and music(accordion and piano).
+**Hobbies:** craft beer, travel, cars, films, and music (accordion & piano).
 
 
 <div style="clear: both;"></div>
