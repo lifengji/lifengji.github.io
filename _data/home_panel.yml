@@ -1,0 +1,38 @@
+quick_links:
+  - title: Google Scholar
+    icon: "fas fa-graduation-cap"
+    url: "https://scholar.google.com/citations?user=6979xDEAAAAJ&hl=zh-CN"
+
+  - title: ORCID
+    icon: "fab fa-orcid"
+    url: "https://orcid.org/0009-0002-0426-7223"
+
+  - title: GitHub
+    icon: "fab fa-github"
+    url: "https://github.com/lifengji"
+
+  - title: CV
+    icon: "fas fa-file-lines"
+    url: "/cv/"
+
+recent_news:
+  - date: "Sep 2026"
+    text: "Your latest academic update."
+    url: "/news/"
+
+  - date: "Jul 2026"
+    text: "Another recent academic update."
+    url: "/news/"
+
+  - date: "Mar 2026"
+    text: "Another recent academic update."
+    url: "/news/"
+
+selected_publications:
+  - year: "2026"
+    title: "Your selected publication title"
+    url: "/publications/"
+
+  - year: "2025"
+    title: "Another selected publication title"
+    url: "/publications/"
