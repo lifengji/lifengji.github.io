@@ -1,8 +1,14 @@
 ---
 layout: default
-refactor: true
+panel_includes:
+  - academic-panel
 ---
 
-<div class="content">
-  {{ content }}
-</div>
+<style>
+  /* Hide Chirpy's default Recently Updated / Trending Tags on this page */
+  #panel-wrapper > .access {
+    display: none;
+  }
+</style>
+
+{{ content }}
