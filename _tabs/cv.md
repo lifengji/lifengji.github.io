@@ -2,6 +2,7 @@
 title: CV
 icon: fas fa-file-lines
 order: 5
+permalink: /CV/
 ---
 
 # Curriculum Vitae
