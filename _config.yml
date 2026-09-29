@@ -14,11 +14,11 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Fengji Li 李沣骥# the main title
+title: Fengji Li 李沣骥
 
 tagline: Postdoctoral Researcher · Assistant Researcher, School of Biological Science and Medical Engineering, BUAA, Beihang University, Beijing, China.
 
-description: >- # used by seo meta and the atom feed
+description: >-
   Personal academic website of Fengji Li (李沣骥).
 
 # Fill in the protocol & hostname for your site.
