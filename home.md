@@ -4,13 +4,11 @@ permalink: /
 ---
 
 <div style="text-align: center; margin-bottom: 2.8rem;">
+  <h1 style="margin-bottom: 0.8rem;">Fengji LI (李沣骥)</h1>
 
-# Fengji LI (李沣骥)
-
-**School of Biological Science and Medical Engineering, Beihang University (BUAA)**  
-No. 37 Xueyuan Road, Haidian District, Beijing, China  
-E-mail: lifengji at buaa.edu.cn
-
+  <strong>School of Biological Science and Medical Engineering, Beihang University (BUAA)</strong><br>
+  No. 37 Xueyuan Road, Haidian District, Beijing, China<br>
+  E-mail: lifengji at buaa.edu.cn
 </div>
 
 ## Profile
@@ -26,14 +24,19 @@ E-mail: lifengji at buaa.edu.cn
     </p>
 
     <p>
-      His research focuses on <strong>physiological speech interfaces,
-      flexible ultrasound sensing, multimodal speech decoding and reconstruction,
-      and assistive communication technologies</strong>.
+      His research focuses on
+      <strong>physiological speech interfaces, flexible ultrasound sensing,
+      multimodal speech decoding and reconstruction, and assistive communication technologies</strong>.
     </p>
 
     <p>
-      He was supported by the **China Scholarship Council (CSC)** and 
-      conducted a research visit (2023.4-6|2023.10-2024.10) at the [**Toda Laboratory**](https://www.toda.is.i.nagoya-u.ac.jp/index.html), Nagoya University, Japan.
+      He was supported by the
+      <strong>China Scholarship Council (CSC)</strong>
+      and conducted a research visit (2023.4-6|2023.10-2024.10) at the
+      <a href="https://www.toda.is.i.nagoya-u.ac.jp/index.html"
+         target="_blank"
+         rel="noopener noreferrer"><strong>Toda Laboratory</strong></a>,
+      Nagoya University, Japan.
     </p>
 
   </div>
