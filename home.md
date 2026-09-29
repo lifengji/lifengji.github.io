@@ -6,7 +6,7 @@ permalink: /
 <div style="text-align: center; margin-bottom: 2.8rem;">
   <h1 style="margin-bottom: 0.8rem;">Fengji LI (李沣骥)</h1>
 
-  <strong>School of Biological Science and Medical Engineering, Beihang University (BUAA)</strong><br>
+  School of Biological Science and Medical Engineering, Beihang University (BUAA)<br>
   No. 37 Xueyuan Road, Haidian District, Beijing, China<br>
   E-mail: lifengji at buaa.edu.cn
 </div>
@@ -18,21 +18,22 @@ permalink: /
   <div class="col-md-7">
 
     <p>
-      Fengji Li is interested in the development of
-      noninvasive physiological interfaces for speech communication,
-      decoding, and rehabilitation.
+      Fengji Li received his Ph.D. degree in Biomedical Engineering
+      from the School of Biological Science and Medical Engineering,
+      Beihang University. He is currently a Postdoctoral Researcher and Assistant Researcher
+      at Beihang University.
     </p>
 
     <p>
       His research focuses on
       physiological speech interfaces, flexible ultrasound sensing,
-      multimodal speech decoding and reconstruction, and assistive communication technologies</strong>.
+      multimodal speech decoding and reconstruction, and assistive communication technologies.
     </p>
 
     <p>
       He was supported by the
       China Scholarship Council (CSC)
-      and conducted a research visit (2023.4-6 | 2023.10-2024.10) at the
+      and conducted a research visit (2023.4-2024.10) at the
       <a href="https://www.toda.is.i.nagoya-u.ac.jp/index.html"
          target="_blank"
          rel="noopener noreferrer"
