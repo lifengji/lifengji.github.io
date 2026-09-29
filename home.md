@@ -3,9 +3,13 @@ layout: profile-home
 permalink: /
 ---
 
-<img src="/assets/img/profile.jpg"
-     alt="Portrait of Fengji Li"
-     style="float: right; width: 220px; margin: 0 0 20px 30px; border-radius: 12px;">
+<div class="profile-photo-wrapper">
+  <img
+    src="/assets/img/profile.jpg"
+    alt="Portrait of Fengji Li"
+    class="profile-photo"
+  >
+</div>
 
 
 # Fengji Li 李沣骥
