@@ -1,8 +1,12 @@
 ---
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
+title: About
+icon: fas fa-user
+order: 1
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+# About Me
+
+I am a Postdoctoral Researcher and Assistant Researcher at Beihang University.
+
+My research focuses on physiological speech interfaces, flexible ultrasound,
+multimodal speech decoding, and biomedical signal processing.
