@@ -35,7 +35,9 @@ permalink: /
       and conducted a research visit (2023.4-6|2023.10-2024.10) at the
       <a href="https://www.toda.is.i.nagoya-u.ac.jp/index.html"
          target="_blank"
-         rel="noopener noreferrer"><strong>Toda Laboratory</strong></a>,
+         rel="noopener noreferrer"
+         style="color: inherit;">
+         <strong>Toda Laboratory</strong></a>,
       Nagoya University, Japan.
     </p>
 
