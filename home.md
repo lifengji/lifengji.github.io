@@ -5,13 +5,8 @@ permalink: /
 
 <img
   src="/assets/img/profile.jpg"
-  alt="Fengji Li"
-  style="
-    float: right;
-    width: 220px;
-    margin: 0 0 20px 30px;
-    border-radius: 12px;
-  "
+  alt="Portrait of Fengji Li"
+  width="220"
 >
 
 
