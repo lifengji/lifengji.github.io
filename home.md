@@ -5,9 +5,9 @@ permalink: /
 
 ## Profile
 
-<div class="profile-section">
+<div class="row align-items-start g-4 mb-4">
 
-  <div class="profile-text">
+  <div class="col-md-8">
     <p>
       Fengji Li (李沣骥) is a Postdoctoral Researcher and Assistant Researcher
       at the School of Biological Science and Medical Engineering,
@@ -15,8 +15,9 @@ permalink: /
     </p>
 
     <p>
-      His research focuses on physiological speech interfaces, flexible ultrasound,
-      multimodal speech decoding, and assistive communication technologies.
+      His research focuses on physiological speech interfaces,
+      flexible ultrasound, multimodal speech decoding,
+      and assistive communication technologies.
     </p>
 
     <p>
@@ -24,11 +25,21 @@ permalink: /
     </p>
   </div>
 
-  <div class="profile-photo">
-    <img
-      src="/assets/img/profile.jpg"
-      alt="Portrait of Fengji Li"
-    >
+  <div class="col-md-4">
+    <div
+      role="img"
+      aria-label="Portrait of Fengji Li"
+      style="
+        width: 150px;
+        height: 200px;
+        margin-left: auto;
+        background-image: url('/assets/img/profile.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+      ">
+    </div>
   </div>
 
 </div>
@@ -40,10 +51,6 @@ permalink: /
 - Multimodal Speech Decoding
 - Silent Speech and Speech Reconstruction
 - Biomedical Signal Processing
-
-## Beyond Research
-
-**Hometown:** Tai'an, Shandong — home of Mount Tai
 
 **Hobby:** craft beer, travel, cars, films, and music(accordion and piano).
 
