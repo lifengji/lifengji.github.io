@@ -73,7 +73,9 @@ permalink: /
 - Silent Speech and Speech Reconstruction
 - Biomedical Signal Processing
 
-**Hobbies:** craft beer, travel, cars, films, and music (accordion & piano).
+
+## Beyond Research
+**Hobbies:** craft beer, travel, photography, cars, films, and music (accordion & piano).
 
 
 <div style="clear: both;"></div>
