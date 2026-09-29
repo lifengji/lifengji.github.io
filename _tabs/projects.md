@@ -2,6 +2,7 @@
 title: Projects
 icon: fas fa-diagram-project
 order: 4
+permalink: /projects/
 ---
 
 # Projects
