@@ -1,174 +1,208 @@
 # The Site Configuration
 
-# Import the theme
 theme: jekyll-theme-chirpy
 
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
-# otherwise, the layout language will use the default value of 'en'.
 lang: en
-
-# Change to your timezone › https://zones.arilyn.cc
 timezone: Asia/Shanghai
 
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-# ↓ --------------------------
+# -----------------------------------------------------------------------------
+# Basic information
+# -----------------------------------------------------------------------------
 
 title: Fengji Li 李沣骥
 
-tagline: Postdoctoral Researcher · Assistant Researcher, School of Biological Science and Medical Engineering, BUAA, Beihang University, Beijing, China.
+tagline: Postdoctoral Researcher · Assistant Researcher @ Beihang University, Beijing, China.
 
 description: >-
-  Personal academic website of Fengji Li (李沣骥).
+  Personal academic website of Fengji Li (李沣骥),
+  focusing on biomedical engineering, physiological speech interfaces,
+  flexible ultrasound, and multimodal speech decoding.
 
-# Fill in the protocol & hostname for your site.
-# E.g. 'https://username.github.io', note that it does not end with a '/'.
+# Your custom domain, without trailing "/"
 url: "https://lifengji.com"
 
-github:
-  username: lifengji # change to your GitHub username
+# Keep empty because the website is hosted at the root domain
+baseurl: ""
 
-# twitter:
-#  username: twitter_username # change to your Twitter username
+# -----------------------------------------------------------------------------
+# GitHub
+# -----------------------------------------------------------------------------
+
+github:
+  username: lifengji
+
+# -----------------------------------------------------------------------------
+# Social Information
+# -----------------------------------------------------------------------------
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Fengji Li 李沣骥
-  email: lifengji@buaa.edu.cn # change to your email address
-#  fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
+  # Default author name and copyright owner
+  name: Fengji Li
+
+  # Contact email
+  email: lifengji@buaa.edu.cn
+
+  # Social / academic links
   links:
-    # The first element serves as the copyright owner's link
-    #- https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/lifengji # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://github.com/lifengji
+    # - https://scholar.google.com/citations?user=YOUR_ID
+    # - https://orcid.org/YOUR-ORCID
+    # - https://www.linkedin.com/in/YOUR_USERNAME
 
-# Site Verification Settings
-#webmaster_verifications:
-#  google: # fill in your Google verification code
-#  bing: # fill in your Bing verification code
-#  alexa: # fill in your Alexa verification code
-#  yandex: # fill in your Yandex verification code
-#  baidu: # fill in your Baidu verification code
-#  facebook: # fill in your Facebook verification code
+# -----------------------------------------------------------------------------
+# Site Verification
+# -----------------------------------------------------------------------------
+#
+# Configure these later when you register the website with
+# Google Search Console, Bing Webmaster Tools, Baidu, etc.
+#
+# webmaster_verifications:
+#   google:
+#   bing:
+#   alexa:
+#   yandex:
+#   baidu:
+#   facebook:
 
-# ↑ --------------------------
-# The end of `jekyll-seo-tag` settings
+# -----------------------------------------------------------------------------
+# Web Analytics
+# -----------------------------------------------------------------------------
+#
+# Leave disabled for now.
+# You can enable Google Analytics or another service later.
+#
+# analytics:
+#   google:
+#     id:
+#   goatcounter:
+#     id:
+#   umami:
+#     id:
+#     domain:
+#   matomo:
+#     id:
+#     domain:
+#   cloudflare:
+#     id:
+#   fathom:
+#     id:
 
-# Web Analytics Settings
-#analytics:
-#  google:
-#    id: # fill in your Google Analytics ID
-#  goatcounter:
-#    id: # fill in your GoatCounter ID
-#  umami:
-#    id: # fill in your Umami ID
-#    domain: # fill in your Umami domain
-#  matomo:
-#    id: # fill in your Matomo ID
-#    domain: # fill in your Matomo domain
-#  cloudflare:
-#    id: # fill in your Cloudflare Web Analytics token
-#  fathom:
-#    id: # fill in your Fathom Site ID
+# -----------------------------------------------------------------------------
+# Appearance
+# -----------------------------------------------------------------------------
 
-# Page views settings
+# Page views
 pageviews:
-  provider: # now only supports 'goatcounter'
+  provider: # currently supports 'goatcounter'
 
-# Prefer color scheme setting.
+# Prefer color scheme
 #
-# Note: Keep empty will follow the system prefer color by default,
-# and there will be a toggle to switch the theme between dark and light
-# on the bottom left of the sidebar.
+# Leave empty:
+#   follow system preference + allow user to switch
 #
-# Available options:
-#
-#     light — Use the light color scheme
-#     dark — Use the dark color scheme
-#
-theme_mode: # [light | dark]
+# Options:
+#   light
+#   dark
+theme_mode:
 
-# The CDN endpoint for media resources.
-# Notice that once it is assigned, the CDN url
-# will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
-#
-# e.g. 'https://cdn.com'
+# CDN endpoint for media resources
+# Leave empty unless you use a CDN
 cdn:
 
-# the avatar on sidebar, support local or CORS resources
+# Sidebar avatar
 avatar: /assets/img/avatar.jpg
 
-# The URL of the site-wide social preview image used in SEO `og:image` meta tag.
-# It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+# Social sharing preview image
+#
+# Recommended later:
+# 1200 × 630 px image
+#
+# Example:
+# social_preview_image: /assets/img/social-preview.png
+social_preview_image:
 
-# boolean type, the global switch for TOC in posts.
+# Global switch for TOC in posts
 toc: true
 
+# -----------------------------------------------------------------------------
+# Post Actions
+# -----------------------------------------------------------------------------
+
 actions:
-  # Display "Edit this post" action on each post page to encourage contributions.
   edit_post:
-    enabled: false # set to true to display the "Edit this post" action.
-    url: "" # repository base URL, e.g. https://github.com/cotes2020/jekyll-theme-chirpy/edit/master
-    # Use dynamic or static URL for the edit link.
-    # If `static_url` is false, the post's path will be appended to the `url` above as the final edit link.
-    # Set to true if the URL should remain unchanged, which means each post will share the same edit link.
-    static_url: false # [ true | false ]
+    enabled: false
+    url: ""
+    static_url: false
+
+# -----------------------------------------------------------------------------
+# Comments
+# -----------------------------------------------------------------------------
+#
+# Keep provider empty to disable comments.
+#
 
 comments:
-  # Global switch for the post-comment system. Keeping it empty means disabled.
   provider: # [disqus | utterances | giscus]
-  # The provider options are as follows:
+
   disqus:
-    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-  # utterances settings › https://utteranc.es/
+    shortname:
+
   utterances:
-    repo: # <gh-username>/<repo>
-    issue_term: # < url | pathname | title | ...>
-  # Giscus options › https://giscus.app
+    repo:
+    issue_term:
+
   giscus:
-    repo: # <gh-username>/<repo>
+    repo:
     repo_id:
     category:
     category_id:
-    mapping: # optional, default to 'pathname'
-    strict: # optional, default to '0'
-    input_position: # optional, default to 'bottom'
-    lang: # optional, default to the value of `site.lang`
-    reactions_enabled: # optional, default to the value of `1`
+    mapping:
+    strict:
+    input_position:
+    lang:
+    reactions_enabled:
 
-# Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
+# -----------------------------------------------------------------------------
+# Static Assets
+# -----------------------------------------------------------------------------
+
 assets:
   self_host:
-    enabled: # boolean, keep empty means false
-    # specify the Jekyll environment, empty means both
-    # only works if `assets.self_host.enabled` is 'true'
-    env: # [development | production]
+    enabled:
+    env:
+
+# -----------------------------------------------------------------------------
+# PWA
+# -----------------------------------------------------------------------------
+#
+# Temporarily disabled while the website is under active development.
+# This avoids aggressive caching of favicon, CSS, images, etc.
+#
+# You can change both to true after the website is stable.
+#
 
 pwa:
-  enabled: true # The option for PWA feature (installable)
+  enabled: false
   cache:
-    enabled: true # The option for PWA offline cache
-    # Paths defined here will be excluded from the PWA cache.
-    # Usually its value is the `baseurl` of another website that
-    # shares the same domain name as the current website.
+    enabled: false
     deny_paths:
-      # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
+      # - "/example"
+
+# -----------------------------------------------------------------------------
+# Pagination
+# -----------------------------------------------------------------------------
 
 paginate: 10
 
-# The base URL of your site
-baseurl: ""
-
-# ------------ The following options are not recommended to be modified ------------------
+# =============================================================================
+# The following options are Chirpy/Jekyll defaults.
+# Normally do not modify them.
+# =============================================================================
 
 kramdown:
-  footnote_backlink: "&#8617;&#xfe0e;"
+  footnote_backlink: "↩︎"
   syntax_highlighter: rouge
-  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
+  syntax_highlighter_opts:
     css_class: highlight
     # default_lang: console
     span:
@@ -184,22 +218,23 @@ collections:
 
 defaults:
   - scope:
-      path: "" # An empty string here means all files in the project
+      path: ""
       type: posts
     values:
       layout: post
-      comments: true # Enable comments in posts.
-      toc: true # Display TOC column in posts.
-      # DO NOT modify the following parameter unless you are confident enough
-      # to update the code of all other post links in this project.
+      comments: true
+      toc: true
+      # DO NOT modify unless you also update all post links
       permalink: /posts/:title/
+
   - scope:
       path: _drafts
     values:
       comments: false
+
   - scope:
       path: ""
-      type: tabs # see `site.collections`
+      type: tabs
     values:
       layout: page
       permalink: /:title/
