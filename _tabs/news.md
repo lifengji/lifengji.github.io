@@ -2,6 +2,7 @@
 title: News
 icon: fas fa-bullhorn
 order: 1
+permalink: /news/
 ---
 
 ## 2026
