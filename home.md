@@ -19,25 +19,25 @@ permalink: /
 
     <p>
       Fengji Li is interested in the development of
-      <strong>noninvasive physiological interfaces for speech communication,
-      decoding, and rehabilitation</strong>.
+      noninvasive physiological interfaces for speech communication,
+      decoding, and rehabilitation.
     </p>
 
     <p>
       His research focuses on
-      <strong>physiological speech interfaces, flexible ultrasound sensing,
+      physiological speech interfaces, flexible ultrasound sensing,
       multimodal speech decoding and reconstruction, and assistive communication technologies</strong>.
     </p>
 
     <p>
       He was supported by the
-      <strong>China Scholarship Council (CSC)</strong>
-      and conducted a research visit (2023.4-6|2023.10-2024.10) at the
+      China Scholarship Council (CSC)
+      and conducted a research visit (2023.4-6 | 2023.10-2024.10) at the
       <a href="https://www.toda.is.i.nagoya-u.ac.jp/index.html"
          target="_blank"
          rel="noopener noreferrer"
          style="color: inherit;">
-         <strong>Toda Laboratory</strong></a>,
+         Toda Lab</a>,
       Nagoya University, Japan.
     </p>
 
