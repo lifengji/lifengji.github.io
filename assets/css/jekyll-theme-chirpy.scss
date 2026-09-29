@@ -56,6 +56,12 @@
 /* ---------------------------------------------------------
    Academic right panel
 --------------------------------------------------------- */
+.academic-panel {
+  position: sticky;
+  top: 2rem;
+  align-self: flex-start;
+  transition: top 0.2s ease-in-out;
+}
 
 .academic-panel section {
   margin-bottom: 2.25rem;
